@@ -5,8 +5,6 @@
 
 main{
     background-color: aqua;
-    height: 50vw;
-
 }
 
 header{
@@ -37,6 +35,16 @@ text-align: center;
 
 .img-r-m{
     text-align: center;
+}
+
+.nav-footer{
+    text-align: center;
+}
+
+.nav-footer img{
+    box-sizing: border-box;
+    width: 30px;
+    margin: 20px;
 }
 
 /* ---------Pagina de Acerca de---------- */
