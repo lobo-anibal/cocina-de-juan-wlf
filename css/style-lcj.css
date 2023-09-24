@@ -1,35 +1,45 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-main{
-   
-}
+
 
 header{
-    background-color: orange;
+    background-color: black;
 }
 header h1{
     text-align: center;
+    color: white;
 }
 nav a{
-    background-color: darkgoldenrod;
-    margin: 2px;
-    padding: 2px;
+    background-color: gray;
+    color: RGB(240,240,240);
+    border-radius: 5px;
+    margin: 4px;
+    padding: 5px;
+    text-decoration: none;
 }
 
 .img-i-m{
-    text-align: center;
+    text-align: left;
+    box-shadow: 100px;
 }
 
 
 footer{
-    background-color: orange;
+    background-color: black;
 }
 footer h5{
+    color: white;
 text-align: center;
 }
+
+
+
+
+
 
 /* ---------Pagina de Recetas---------- */
 
@@ -47,7 +57,36 @@ text-align: center;
     margin: 20px;
 }
 
+.nav-footer a{
+    background-color: black;
+}
+
+.receta{
+    color: white;
+    text-decoration: none;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+}
 /* ---------Pagina de Acerca de---------- */
 .img-a-m{
     text-align: center;
+}
+
+
+
+
+/*----------Registro----------*/
+.main-registro{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 50vh;
+}
+.formulario{
+    background-color: lightgrey;
+    width: 50vh;
+    margin: 20px;
+    padding: 10px;
 }
